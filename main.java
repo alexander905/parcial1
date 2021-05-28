@@ -304,7 +304,7 @@ public class main {
         System.out.println(msj);
     }
 
-    //para liempiar la consola
+    //para liempiar la consola.
     public static void limpiarPantalla(float tiempo) {
         try {
             Thread.sleep((int)(tiempo * 1000));
@@ -333,7 +333,7 @@ public class main {
         /* for (int i = 0; i < nombre.size(); i++){
               mensaje(nombre.get(i).getClass().getName() + "\t[ID: " + nombre.get(i).hashCode() + "]");
               mensaje(nombre.get(i)+"");
-              mensaje("-----------------------");
+              mensaje("------------------------.--");
            }*/ 
         nombre.forEach(person -> {
             System.out.println(nombre.get(nombre.indexOf(person)).getClass().getName() + "\t[ID: " + nombre.get(nombre.indexOf(person)).hashCode() + "]");

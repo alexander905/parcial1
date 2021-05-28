@@ -5,7 +5,7 @@ interface BaseVehiculos {
 }
 
 
-// Implementacion del patron FACTORY METHOD
+// Implementacion del patron FACTORY METHOD.
 abstract class Vehiculos implements BaseVehiculos {
 
     protected final String referencia;
